@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Inter } from "@next/font/google";
 import { useEffect, useState } from "react";
 import { Button } from "../components/Button";
+import { useRouter } from "next/router";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ export default function Play() {
   const [scorersPlayed, setScorersPlayed] = useState(1);
   const [score, setScore] = useState(0);
   const [animation, setAnimation] = useState("vs");
+  const router = useRouter();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -40,9 +42,9 @@ export default function Play() {
 
   const correctOption = () => {
     setAnimation("win");
+    setScore((prevScore) => prevScore + 1);
     setTimeout(() => {
       setAnimation("vs");
-      setScore((prevScore) => prevScore + 1);
       scorersPlayed < scorers.length - 1
         ? setScorersPlayed((prevScorersPlayed) => prevScorersPlayed + 1)
         : console.log("You WIN");
@@ -52,7 +54,7 @@ export default function Play() {
   const wrongOption = () => {
     setAnimation("lose");
     setTimeout(() => {
-      setAnimation("vs");
+      router.replace("/");
     }, 3000);
   };
 
@@ -76,17 +78,44 @@ export default function Play() {
         <section className="option-two">
           <h1>{scorers[scorersPlayed].name}</h1>
           <span>has</span>
-          <div className="btn-cont">
-            <Button onClick={() => handleClick("higher")}>Higher</Button>
-          </div>
-          <div className="btn-cont">
-            <Button onClick={() => handleClick("lower")}>Lower</Button>
-          </div>
+          {animation === "vs" ? (
+            <>
+              <Button
+                onClick={() => handleClick("higher")}
+                width="200px"
+                heigth="60px"
+              >
+                Higher
+              </Button>
+              <Button
+                onClick={() => handleClick("lower")}
+                width="200px"
+                heigth="60px"
+              >
+                Lower
+              </Button>
+            </>
+          ) : (
+            <h1 className="goals-guess">{scorers[scorersPlayed].goals}</h1>
+          )}
           <span>goals than {scorers[scorersPlayed - 1].name}</span>
         </section>
         <div className={`score-cont ${animation}`}>{score}</div>
       </main>
       <style jsx>{`
+        .goals-guess {
+          font-size: 60px;
+          color: #fff989;
+          animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+          100% {
+            opacity: 1;
+          }
+        }
         .lose {
           animation: mymoveLost 3s;
           color: #fff;
@@ -106,9 +135,11 @@ export default function Play() {
         @keyframes mymoveWin {
           from {
             background-color: white;
+            color: transparent;
           }
           to {
             background-color: #84ff52;
+            color: #fff;
           }
         }
         .vs {
@@ -132,10 +163,6 @@ export default function Play() {
         .goals {
           font-size: 60px;
           color: #fff989;
-        }
-        .btn-cont {
-          width: 200px;
-          height: 60px;
         }
         main {
           padding: 0;
