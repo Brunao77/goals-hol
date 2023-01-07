@@ -111,6 +111,50 @@ export default function Play() {
         <span className="best-score">Best score: {bestScore}</span>
       </main>
       <style jsx>{`
+        main {
+          padding: 0;
+          width: 100%;
+          height: 100vh;
+          display: flex;
+          flex-direction: row;
+          color: white;
+        }
+        section {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          gap: 10px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
+        }
+        h1 {
+          color: white;
+          position: relative;
+          font-size: 30px;
+          margin: 0;
+        }
+        span {
+          position: relative;
+        }
+        .option-one {
+          background-image: url(${scorers[scorersPlayed - 1].imgURL});
+        }
+        .option-one:before {
+          content: " ";
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: rgba(0, 0, 0, 0.6);
+        }
+        .option-two {
+          background-image: url(${scorers[scorersPlayed].imgURL});
+        }
         .best-score {
           position: absolute;
           font-weight: 800;
@@ -179,50 +223,6 @@ export default function Play() {
         .goals {
           font-size: 60px;
           color: #fff989;
-        }
-        main {
-          padding: 0;
-          width: 100%;
-          height: 100vh;
-          display: flex;
-          flex-direction: row;
-          color: white;
-        }
-        section {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-direction: column;
-          width: 100%;
-          height: 100%;
-          gap: 10px;
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: contain;
-        }
-        h1 {
-          color: white;
-          position: relative;
-          font-size: 30px;
-          margin: 0;
-        }
-        span {
-          position: relative;
-        }
-        .option-one {
-          background-image: url(${scorers[scorersPlayed - 1].imgURL});
-        }
-        .option-one:before {
-          content: " ";
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          background-color: rgba(0, 0, 0, 0.6);
-        }
-        .option-two {
-          background-image: url(${scorers[scorersPlayed].imgURL});
         }
       `}</style>
     </>
