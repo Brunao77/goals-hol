@@ -1,10 +1,19 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
-import { Link } from "../components/Link";
+import { Anchor } from "../components/Anchor";
+import { useEffect, useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [score, setBestScore] = useState(null);
+
+  useEffect(() => {
+    const storedScore = JSON.parse(localStorage.getItem("score"));
+    if (storedScore) {
+      setBestScore(storedScore);
+    }
+  }, []);
   return (
     <>
       <Head>
@@ -17,9 +26,9 @@ export default function Home() {
       </Head>
       <main>
         <h1>The Higher Or Lower Game Version Scorers</h1>
-        <Link href="/play" width="200px" height="50px;">
+        <Anchor href="/play" width="200px" height="50px;">
           PLAY
-        </Link>
+        </Anchor>
       </main>
       <style jsx>{`
         main {
