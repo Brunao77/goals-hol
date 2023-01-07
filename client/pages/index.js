@@ -1,19 +1,10 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import { Anchor } from "../components/Anchor";
-import { useEffect, useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const [score, setBestScore] = useState(null);
-
-  useEffect(() => {
-    const storedScore = JSON.parse(localStorage.getItem("score"));
-    if (storedScore) {
-      setBestScore(storedScore);
-    }
-  }, []);
   return (
     <>
       <Head>

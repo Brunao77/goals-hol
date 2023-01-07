@@ -1,7 +1,17 @@
 import Head from "next/head";
+import { useRouter } from "next/router";
+import { useEffect, useState } from "react";
 import { Anchor } from "../components/Anchor";
 
 export default function Lose() {
+  const [score, setScore] = useState(null);
+  const router = useRouter();
+
+  useEffect(() => {
+    const { score } = router.query;
+    setScore(score);
+  }, []);
+
   return (
     <>
       <Head>
@@ -14,9 +24,9 @@ export default function Lose() {
       </Head>
       <main>
         <h3>You scored:</h3>
-        <h1>2</h1>
+        <h1>{score}</h1>
         <div>
-          <Anchor href="/play" width="200px" height="50px;">
+          <Anchor href="/" width="200px" height="50px;">
             BACK TO MENU
           </Anchor>
           <Anchor href="/play" width="200px" height="50px;">

@@ -15,6 +15,7 @@ export default function Play() {
   const [scorersPlayed, setScorersPlayed] = useState(1);
   const [score, setScore] = useState(0);
   const [animation, setAnimation] = useState("vs");
+  const [bestScore, setBestScore] = useState(0);
   const router = useRouter();
 
   useEffect(() => {
@@ -23,6 +24,8 @@ export default function Play() {
       const scorersData = await res.json();
       const sortScorers = sortRandom(scorersData);
       setScorers(sortScorers);
+      const storedScore = JSON.parse(localStorage.getItem("score"));
+      storedScore && setBestScore(storedScore);
     };
     fetchData();
   }, []);
@@ -53,8 +56,12 @@ export default function Play() {
 
   const wrongOption = () => {
     setAnimation("lose");
+    score > bestScore && localStorage.setItem("score", JSON.stringify(score));
     setTimeout(() => {
-      router.replace("/");
+      router.push({
+        pathname: "/lose",
+        query: { score },
+      });
     }, 3000);
   };
 
@@ -101,8 +108,17 @@ export default function Play() {
           <span>goals than {scorers[scorersPlayed - 1].name}</span>
         </section>
         <div className={`score-cont ${animation}`}>{score}</div>
+        <span className="best-score">Best score: {bestScore}</span>
       </main>
       <style jsx>{`
+        .best-score {
+          position: absolute;
+          font-weight: 800;
+          font-size: 25px;
+          top: 95%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
         .goals-guess {
           font-size: 60px;
           color: #fff989;
