@@ -1,8 +1,8 @@
 import Link from "next/link";
-export const Anchor = ({ children, href, width, height }) => {
+export const Anchor = ({ children, href, width, height, query }) => {
   return (
     <>
-      <Link href={href} legacyBehavior>
+      <Link href={{ pathname: href, query }} legacyBehavior>
         <a>{children}</a>
       </Link>
       <style jsx>{`
