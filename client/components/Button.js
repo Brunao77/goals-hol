@@ -1,4 +1,4 @@
-export const Button = ({ onClick, children }) => {
+export const Button = ({ onClick, children, width, heigth }) => {
   return (
     <>
       <button onClick={onClick}>{children}</button>
@@ -8,8 +8,8 @@ export const Button = ({ onClick, children }) => {
           border-radius: 25px;
           border: 2px solid #fff;
           background: transparent;
-          width: 100%;
-          height: 100%;
+          width: ${width};
+          height: ${heigth};
           cursor: pointer;
           font-weight: 600;
           font-size: 20px;
