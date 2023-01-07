@@ -196,6 +196,9 @@ export default function Play() {
           width: 100%;
           height: 100%;
           gap: 10px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: contain;
         }
         h1 {
           color: white;
@@ -208,9 +211,6 @@ export default function Play() {
         }
         .option-one {
           background-image: url(${scorers[scorersPlayed - 1].imgURL});
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: contain;
         }
         .option-one:before {
           content: " ";
@@ -223,9 +223,6 @@ export default function Play() {
         }
         .option-two {
           background-image: url(${scorers[scorersPlayed].imgURL});
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: contain;
         }
       `}</style>
     </>
