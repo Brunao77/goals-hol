@@ -46,8 +46,8 @@ export default function Home() {
             <label class="custom-radio-btn">All</label>
           </div>
           <div
-            onClick={() => handlePlayOption("argentine-league")}
-            className={`${playOption === "argentine-league" ? "checked" : ""}`}
+            onClick={() => handlePlayOption("argentine_league")}
+            className={`${playOption === "argentine_league" ? "checked" : ""}`}
           >
             <Image
               src="/argentine.svg"
@@ -56,6 +56,18 @@ export default function Home() {
               alt="Scorers Argentine League"
             />
             <label class="label-btn">Argentine</label>
+          </div>
+          <div
+            onClick={() => handlePlayOption("boca_juniors")}
+            className={`${playOption === "boca_juniors" ? "checked" : ""}`}
+          >
+            <Image
+              src="/boca-juniors.svg"
+              width="64"
+              height="64"
+              alt="Scorers Argentine League"
+            />
+            <label class="label-btn">Boca Juniors</label>
           </div>
         </section>
       </main>
