@@ -20,12 +20,19 @@ export default function Play() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const res = await fetch("https://goals-hol.brucolon.workers.dev/scorers");
-      const scorersData = await res.json();
-      const sortScorers = sortRandom(scorersData);
-      setScorers(sortScorers);
-      const storedScore = JSON.parse(localStorage.getItem("score"));
-      storedScore && setBestScore(storedScore);
+      const { play_option } = router.query;
+      try {
+        const res = await fetch(
+          `https://goals-hol.brucolon.workers.dev/scorers/${play_option}`
+        );
+        const scorersData = await res.json();
+        const sortScorers = sortRandom(scorersData);
+        setScorers(sortScorers);
+        const storedScore = JSON.parse(localStorage.getItem(play_option));
+        storedScore && setBestScore(storedScore);
+      } catch (err) {
+        return router.push("/");
+      }
     };
     fetchData();
   }, []);
@@ -55,12 +62,14 @@ export default function Play() {
   };
 
   const wrongOption = () => {
+    const { play_option } = router.query;
     setAnimation("lose");
-    score > bestScore && localStorage.setItem("score", JSON.stringify(score));
+    score > bestScore &&
+      localStorage.setItem(play_option, JSON.stringify(score));
     setTimeout(() => {
       router.push({
         pathname: "/lose",
-        query: { score },
+        query: { score, play_option },
       });
     }, 3000);
   };

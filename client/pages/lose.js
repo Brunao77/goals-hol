@@ -5,11 +5,13 @@ import { Anchor } from "../components/Anchor";
 
 export default function Lose() {
   const [score, setScore] = useState(null);
+  const [playOption, setPlayOption] = useState(null);
   const router = useRouter();
 
   useEffect(() => {
-    const { score } = router.query;
+    const { score, play_option } = router.query;
     setScore(score);
+    setPlayOption(play_option);
   }, []);
 
   return (
@@ -29,7 +31,12 @@ export default function Lose() {
           <Anchor href="/" width="200px" height="50px;">
             BACK TO MENU
           </Anchor>
-          <Anchor href="/play" width="200px" height="50px;">
+          <Anchor
+            href="/play"
+            query={{ play_option: playOption }}
+            width="200px"
+            height="50px;"
+          >
             PLAY AGAIN
           </Anchor>
         </div>
