@@ -44,7 +44,8 @@
   {
     "name": "Jimmy Jones",
     "season": "1946-1965",
-    "goals": 647
+    "goals": 647,
+    "imgURL": "http://www.belfastceltic.org/images/jjonesball.jpg"
   },
   {
     "name": "Abe Lenstra",
@@ -73,7 +74,8 @@
   {
     "name": "Glenn Ferguson",
     "season": "1987-2011",
-    "goals": 563
+    "goals": 563,
+    "imgURL": "https://m.belfasttelegraph.co.uk/migration_catalog/95c93/25756686.ece/AUTOCROP/w620/Glenn%20Ferguson"
   },
   {
     "name": "Fernando Peyroteo",
@@ -96,7 +98,8 @@
   {
     "name": "Luis Suárez",
     "season": "2005-Act",
-    "goals": 528
+    "goals": 528,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Luis_Su%C3%A1rez_2018.jpg/225px-Luis_Su%C3%A1rez_2018.jpg"
   },
   {
     "name": "Isidro Lángara",
@@ -215,7 +218,8 @@
   {
     "name": "Aleksandar Đurić",
     "season": "1994-2014",
-    "goals": 443
+    "goals": 443,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Aleksduric.jpg/200px-Aleksduric.jpg"
   },
   {
     "name": "Dixie Dean",
@@ -250,7 +254,8 @@
   {
     "name": "Raúl González",
     "season": "1994-2015",
-    "goals": 432
+    "goals": 432,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ra%C3%BAl_Gonz%C3%A1lez_in_Real_Madrid_2009.jpg/320px-Ra%C3%BAl_Gonz%C3%A1lez_in_Real_Madrid_2009.jpg"
   },
   {
     "name": "Ronaldo Nazário",
@@ -297,7 +302,8 @@
   {
     "name": "Hughie Gallacher",
     "season": "1921-1939",
-    "goals": 416
+    "goals": 416,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/en/2/2c/Hughie_Gallacher.jpg"
   },
   {
     "name": "John Aldridge",
@@ -314,7 +320,8 @@
   {
     "name": "Fred",
     "season": "2003-2022",
-    "goals": 412
+    "goals": 412,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Fred_Silver_Boot%2C_Confederations_Cup_2013.jpg/320px-Fred_Silver_Boot%2C_Confederations_Cup_2013.jpg"
   },
   {
     "name": "Ferenc Szusza",
@@ -325,7 +332,8 @@
   {
     "name": "Juan Plata",
     "season": "1988-2011",
-    "goals": 411
+    "goals": 411,
+    "imgURL": "https://cdn.balonlatino.net/wp-content/uploads/2021/05/Noticias-Por-el-Mundo.jpg.webp"
   },
   {
     "name": "Thierry Henry",
@@ -366,7 +374,8 @@
   {
     "name": "Víctor Hugo Antelo",
     "season": "1980-2001",
-    "goals": 392
+    "goals": 392,
+    "imgURL": "http://1.bp.blogspot.com/-zotJmvt5qyY/UOxSnPpkLqI/AAAAAAAAVy8/NchJA5onXyw/s1600/victor+hugo+antelo.jpg"
   },
   {
     "name": "György Sárosi",
@@ -377,7 +386,8 @@
   {
     "name": "Fritz Walter",
     "season": "1937-1959",
-    "goals": 390
+    "goals": 390,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fritz_Walter_cropped_2.JPG"
   },
   {
     "name": "José Águas",
@@ -388,7 +398,8 @@
   {
     "name": "Albert De Cleyn",
     "season": "1933-1955",
-    "goals": 386
+    "goals": 386,
+    "imgURL": "https://static.blog4ever.com/2014/12/790899/artfichier_790899_4928134_201506210611214.jpg"
   },
   {
     "name": "Ruud van Nistelrooy",
@@ -453,7 +464,8 @@
   {
     "name": "Osvaldo Castro",
     "season": "1965-1984",
-    "goals": 368
+    "goals": 368,
+    "imgURL": "https://pamboleros.com/wp-content/uploads/2018/01/protada.jpg"
   },
   {
     "name": "Hughie Ferguson",
@@ -560,12 +572,14 @@
   {
     "name": "Víctor Hugo Aristizabal",
     "season": "1990-2008",
-    "goals": 348
+    "goals": 348,
+    "imgURL": "https://blogs.20minutos.es/quefuede/files/2013/01/aristizabal.jpg"
   },
   {
     "name": "Marc Lloyd Williams",
     "season": "1992-2014",
-    "goals": 345
+    "goals": 345,
+    "imgURL": "https://i0.wp.com/nwsport.co.uk/wp-content/uploads/2020/04/MARCLLOYDWILLIAMS3.jpg?resize=640%2C427&ssl=1"
   },
   {
     "name": "Diego Maradona",
@@ -588,7 +602,8 @@
   {
     "name": "Nemanja Nikolić",
     "season": "2006-Act",
-    "goals": 341
+    "goals": 341,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CINvCHI_2017-06-28_-_Nemanja_Nikoli%C4%87_%2839393300370%29_%28cropped%29.jpg/320px-CINvCHI_2017-06-28_-_Nemanja_Nikoli%C4%87_%2839393300370%29_%28cropped%29.jpg"
   },
   {
     "name": "Radamel Falcao",
@@ -605,7 +620,8 @@
   {
     "name": "Pierre Aubameyang",
     "season": "2008-Act",
-    "goals": 334
+    "goals": 334,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/1_Pierre-Emerick_Aubameyang_%28cropped%29.jpg/250px-1_Pierre-Emerick_Aubameyang_%28cropped%29.jpg"
   },
   {
     "name": "Harry Kane",
