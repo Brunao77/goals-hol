@@ -72,6 +72,9 @@ export default function Home() {
         </section>
       </main>
       <style jsx>{`
+        label {
+          cursor: pointer;
+        }
         .checked {
           border: 2px solid #fff989;
           color: #fff989;
