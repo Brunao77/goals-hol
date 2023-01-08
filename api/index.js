@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { cors } from "hono/cors";
 import scorers from "../db/scorers.json";
-import historical_scorers_argentine from "../db/historical-scorers-argentine.json";
+import historical_scorers_argentine from "../db/historical_scorers_argentine.json";
 
 const app = new Hono();
 app.use("*", cors());
