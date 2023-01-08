@@ -65,13 +65,32 @@ export default function Home() {
               src="/boca-juniors.svg"
               width="64"
               height="64"
-              alt="Scorers Argentine League"
+              alt="Scorers Boca Juniors"
             />
             <label class="label-btn">Boca Juniors</label>
           </div>
         </section>
       </main>
+      <footer className="contact">
+        <a href="https://www.instagram.com/brunomunne/">
+          <Image src="/instagram.svg" width="32" height="32" alt="Instagram" />
+        </a>
+        <a href="https://twitter.com/Brunao77_">
+          <Image src="/twitter.svg" width="32" height="32" alt="Twitter" />
+        </a>
+        <a href="https://www.twitch.tv/brunao77_">
+          <Image src="/twitch.svg" width="32" height="32" alt="Twitch" />
+        </a>
+      </footer>
       <style jsx>{`
+        footer {
+          display: grid;
+          grid-template-columns: repeat(3, auto);
+          grid-gap: 20px;
+          color: #fff;
+          justify-content: center;
+          align-items: center;
+        }
         label {
           cursor: pointer;
         }
@@ -101,7 +120,7 @@ export default function Home() {
         }
         main {
           width: 100%;
-          height: 100vh;
+          height: 90vh;
           display: flex;
           flex-direction: column;
           align-items: center;
