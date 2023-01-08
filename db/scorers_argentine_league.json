@@ -1,0 +1,566 @@
+[
+  {
+    "name": "Arsenio Erico",
+    "goals": 295,
+    "season": "1947",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Arsenio_Erico_1934.jpeg/320px-Arsenio_Erico_1934.jpeg"
+  },
+  {
+    "name": "Ángel Labruna",
+    "goals": 294,
+    "season": "1939",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Angel_Labruna_1940.jpg/320px-Angel_Labruna_1940.jpg"
+  },
+  {
+    "name": "Herminio Masantonio",
+    "goals": 256,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/HMasantonio.jpg/320px-HMasantonio.jpg"
+  },
+  {
+    "name": "José Sand",
+    "goals": 237,
+    "season": "1999",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Jose-Sand-Deportivo-Cali.webp/320px-Jose-Sand-Deportivo-Cali.webp.png"
+  },
+  {
+    "name": "Manuel Pelegrina",
+    "goals": 231,
+    "season": "1938",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Manuelpelegrina.jpg/320px-Manuelpelegrina.jpg"
+  },
+  {
+    "name": "Martín Palermo",
+    "goals": 227,
+    "season": "1992",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Martin_palermo_fkm08.jpg/300px-Martin_palermo_fkm08.jpg"
+  },
+  {
+    "name": "José Sanfilippo",
+    "goals": 226,
+    "season": "1953",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Jos%C3%A9_Sanfilippo_1962.jpg/320px-Jos%C3%A9_Sanfilippo_1962.jpg"
+  },
+  {
+    "name": "Ricardo Infante",
+    "goals": 217,
+    "season": "1942",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Ricardoinfante.jpg/320px-Ricardoinfante.jpg"
+  },
+  {
+    "name": "Oscar Más",
+    "goals": 215,
+    "season": "1964",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Oscar_Mas_1969.jpg/200px-Oscar_Mas_1969.jpg"
+  },
+  {
+    "name": "Bernabé Ferreyra",
+    "goals": 208,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bernabe_Ferreyra.jpg/200px-Bernabe_Ferreyra.jpg"
+  },
+  {
+    "name": "Carlos Bianchi",
+    "goals": 206,
+    "season": "1967",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Carlos_bianchi_1994.jpg/320px-Carlos_bianchi_1994.jpg"
+  },
+  {
+    "name": "Miguel Brindisi",
+    "goals": 194,
+    "season": "1967",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Miguel_%C3%81ngel_Brindisi_en_1974.jpg/200px-Miguel_%C3%81ngel_Brindisi_en_1974.jpg"
+  },
+  {
+    "name": "Delfín Benítez Cáceres",
+    "goals": 193,
+    "season": "1932",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/f/f2/Delfinbcaceres.jpg"
+  },
+  {
+    "name": "José Manuel Moreno",
+    "goals": 187,
+    "season": "1935",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Jose_M_Moreno_1941.jpeg/320px-Jose_M_Moreno_1941.jpeg"
+  },
+  {
+    "name": "Hugo Gottardi",
+    "goals": 186,
+    "season": "1973",
+    "imgURL": "http://lachachara.org/wp-content/uploads/2018/05/10450839_790206494398227_3245339894968430493_n-248x300.jpg"
+  },
+  {
+    "name": "Roque Avallay",
+    "goals": 184,
+    "season": "1965",
+    "imgURL": "https://www.elgrafico.com.ar/media/cache/pub_news_details_large/media/i/b7/78/b778810b40ea5bd55126578f9002abecf851b5e8.jpg"
+  },
+  {
+    "name": "Juan José Pizzuti",
+    "goals": 182,
+    "season": "1965",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pizzutti_1961.jpeg/320px-Pizzutti_1961.jpeg"
+  },
+  {
+    "name": "Francisco Varallo",
+    "goals": 180,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/f/f0/Franciscovarallo.jpg"
+  },
+  {
+    "name": "Jaime Sarlanga",
+    "goals": 171,
+    "season": "1935",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sarlanga_Boca_1940.jpeg/320px-Sarlanga_Boca_1940.jpeg"
+  },
+  {
+    "name": "Luis Artime",
+    "goals": 165,
+    "season": "1959",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/0/02/Luis_Artime.jpg"
+  },
+  {
+    "name": "Esteban Fuertes",
+    "goals": 165,
+    "season": "1992",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Bichi_Fuertes.jpg/150px-Bichi_Fuertes.jpg"
+  },
+  {
+    "name": "Norberto Alonso",
+    "goals": 164,
+    "season": "1971",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Beto_alonso_retouched.jpg/320px-Beto_alonso_retouched.jpg"
+  },
+  {
+    "name": "Emilio Baldonedo",
+    "goals": 163,
+    "season": "1935",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/8/83/Emilio_Baldonedo.png"
+  },
+  {
+    "name": "Carlos Morete",
+    "goals": 160,
+    "season": "1970",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/0/03/CarlosMorete.JPG"
+  },
+  {
+    "name": "Llamil Simes",
+    "goals": 155,
+    "season": "1943",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Llamil_Simes_%28Racing%29_-_El_Gr%C3%A1fico_1500.jpg/200px-Llamil_Simes_%28Racing%29_-_El_Gr%C3%A1fico_1500.jpg"
+  },
+  {
+    "name": "Héctor Scotta",
+    "goals": 152,
+    "season": "1970",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Hector_scotta_el_grafico.jpg/180px-Hector_scotta_el_grafico.jpg"
+  },
+  {
+    "name": "Mario Boyé",
+    "goals": 152,
+    "season": "1941",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Mario_boye.jpg/320px-Mario_boye.jpg"
+  },
+  {
+    "name": "Vicente De La Mata",
+    "goals": 152,
+    "season": "1937",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Vicente_de_la_Mata_on_El_Grafico_1085.jpg/320px-Vicente_de_la_Mata_on_El_Grafico_1085.jpg"
+  },
+  {
+    "name": "Diego Maradona",
+    "goals": 151,
+    "season": "1976",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/272px-Maradona-Mundial_86_con_la_copa.JPG"
+  },
+  {
+    "name": "Rinaldo Martino",
+    "goals": 147,
+    "season": "1941",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/9/92/Martino_sanlorenzo1.jpg"
+  },
+  {
+    "name": "Alberto Zozaya",
+    "goals": 144,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Albertozozaya.jpg/320px-Albertozozaya.jpg"
+  },
+  {
+    "name": "Juan José Ferraro",
+    "goals": 143,
+    "season": "1944",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Juan_Jos%C3%A9_Ferraro.jpg/320px-Juan_Jos%C3%A9_Ferraro.jpg"
+  },
+  {
+    "name": "Víctor Marchetti",
+    "goals": 143,
+    "season": "1969",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Victor_marcheti.jpg/150px-Victor_marcheti.jpg"
+  },
+  {
+    "name": "Rodolfo Fischer",
+    "goals": 142,
+    "season": "1969",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Lobo_fischer.jpg/220px-Lobo_fischer.jpg"
+  },
+  {
+    "name": "Ernesto Farías",
+    "goals": 141,
+    "season": "1998",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/FARIASAMERICA.jpg/300px-FARIASAMERICA.jpg"
+  },
+  {
+    "name": "Agustín Cosso",
+    "goals": 140,
+    "season": "1933",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Agust%C3%ADn_Cosso_%28V%C3%A9lez%29_-_El_Gr%C3%A1fico_851.jpg/320px-Agust%C3%ADn_Cosso_%28V%C3%A9lez%29_-_El_Gr%C3%A1fico_851.jpg"
+  },
+  {
+    "name": "Alfredo Obberti",
+    "goals": 138,
+    "season": "1962",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Alfredo_Obberti.jpg/320px-Alfredo_Obberti.jpg"
+  },
+  {
+    "name": "José Luis Calderón",
+    "goals": 138,
+    "season": "1992",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/7/70/JLCalder%C3%B3n2006.jpg"
+  },
+  {
+    "name": "Adolfo Pedernera",
+    "goals": 137,
+    "season": "1935",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Pedernera_argnationalteam.jpg/260px-Pedernera_argnationalteam.jpg"
+  },
+  {
+    "name": "Evaristo Barrera",
+    "goals": 136,
+    "season": "1933",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Evaristo_Barrera.jpg/320px-Evaristo_Barrera.jpg"
+  },
+  {
+    "name": "René Pontoni",
+    "goals": 133,
+    "season": "1941",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ren%C3%A9_Pontoni_Tapa_El_Gr%C3%A1fico_N%C2%B0_1207.jpg/320px-Ren%C3%A9_Pontoni_Tapa_El_Gr%C3%A1fico_N%C2%B0_1207.jpg"
+  },
+  {
+    "name": "José Omar Reinaldi",
+    "goals": 133,
+    "season": "1968",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/2/2d/ReinaldiTalleres.jpg"
+  },
+  {
+    "name": "Santiago Silva",
+    "goals": 131,
+    "season": "2005",
+    "imgURL": "https://www.laprensa.com.ar/multimedios/imgs/44391_620.jpg"
+  },
+  {
+    "name": "Norberto Conde",
+    "goals": 130,
+    "season": "1952",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Norberto_Conde_%28V%C3%A9lez%29_-_El_Gr%C3%A1fico_1870.jpg/200px-Norberto_Conde_%28V%C3%A9lez%29_-_El_Gr%C3%A1fico_1870.jpg"
+  },
+  {
+    "name": "Alberto Acosta",
+    "goals": 128,
+    "season": "1986",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Beto_Acosta.png/200px-Beto_Acosta.png"
+  },
+  {
+    "name": "Miguel Ángel Benito",
+    "goals": 128,
+    "season": "1968",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Miguel_%C3%81ngel_Benito.jpg/250px-Miguel_%C3%81ngel_Benito.jpg"
+  },
+  {
+    "name": "Rubén Bravo",
+    "goals": 127,
+    "season": "1941",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/6/6c/Ruben-bravo1.png"
+  },
+  {
+    "name": "Héctor Yazalde",
+    "goals": 126,
+    "season": "1967",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/H%C3%A9ctor_Yazalde.jpg/320px-H%C3%A9ctor_Yazalde.jpg"
+  },
+  {
+    "name": "Carlos Babington",
+    "goals": 126,
+    "season": "1969",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Carlos_Babington.jpg/320px-Carlos_Babington.jpg"
+  },
+  {
+    "name": "Ernesto Mastrangelo",
+    "goals": 126,
+    "season": "1968",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Mastr%C3%A1ngelo_Heber_Boca_Juniors.jpg/200px-Mastr%C3%A1ngelo_Heber_Boca_Juniors.jpg"
+  },
+  {
+    "name": "Arturo Naón",
+    "goals": 125,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/CGE_-_Arturo_Naon.jpg/160px-CGE_-_Arturo_Naon.jpg"
+  },
+  {
+    "name": "Luis Arrieta",
+    "goals": 124,
+    "season": "1939",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Luis_Arrieta_%28Lan%C3%BAs%29._-_El_Gr%C3%A1fico_1219.jpg/220px-Luis_Arrieta_%28Lan%C3%BAs%29._-_El_Gr%C3%A1fico_1219.jpg"
+  },
+  {
+    "name": "Alfredo Rojas",
+    "goals": 124,
+    "season": "1956",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/8/86/AlfredoRojas.jpg"
+  },
+  {
+    "name": "Bernardo Gandulla",
+    "goals": 123,
+    "season": "1935",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Gandulla_1940.jpg/320px-Gandulla_1940.jpg"
+  },
+  {
+    "name": "Santiago Vernazza",
+    "goals": 123,
+    "season": "1947",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Santiago_Vernazza1.jpg/320px-Santiago_Vernazza1.jpg"
+  },
+  {
+    "name": "Norberto Méndez",
+    "goals": 123,
+    "season": "1939",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NorbertoMendez.jpg/320px-NorbertoMendez.jpg"
+  },
+  {
+    "name": "Esteban González",
+    "goals": 120,
+    "season": "1982",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Elgrafico_3839_gonzalez.jpg/320px-Elgrafico_3839_gonzalez.jpg"
+  },
+  {
+    "name": "Jorge Comas",
+    "goals": 118,
+    "season": "1980",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Comas_gritando_gol.jpg/320px-Comas_gritando_gol.jpg"
+  },
+  {
+    "name": "Roberto D'Alessandro",
+    "goals": 117,
+    "season": "1939",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Roberto_D%27Alessandro.jpg/320px-Roberto_D%27Alessandro.jpg"
+  },
+  {
+    "name": "Eduardo Ricagni",
+    "goals": 117,
+    "season": "1944",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Ricagni_Boca.PNG/320px-Ricagni_Boca.PNG"
+  },
+  {
+    "name": "Ricardo Alarcón",
+    "goals": 117,
+    "season": "1933",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Ricardo_Alarcon.jpg"
+  },
+  {
+    "name": "Víctor Ramos",
+    "goals": 117,
+    "season": "1978",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Victor_ramos_newells.jpg/320px-Victor_ramos_newells.jpg"
+  },
+  {
+    "name": "José Iglesias",
+    "goals": 117,
+    "season": "1976",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Toti_iglesias_racing.jpg/220px-Toti_iglesias_racing.jpg"
+  },
+  {
+    "name": "Ricardo Gareca",
+    "goals": 116,
+    "season": "1978",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Ricardo_Gareca_DT.jpg/320px-Ricardo_Gareca_DT.jpg"
+  },
+  {
+    "name": "Mario Kempes",
+    "goals": 115,
+    "season": "1973",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/6/6d/Kempes_Valencia_CF.jpg"
+  },
+  {
+    "name": "Enzo Francescoli",
+    "goals": 115,
+    "season": "1983",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Francescoli_river_85.jpg/320px-Francescoli_river_85.jpg"
+  },
+  {
+    "name": "Rubén Galletti",
+    "goals": 114,
+    "season": "1971",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Ruben_Galletti.jpg/320px-Ruben_Galletti.jpg"
+  },
+  {
+    "name": "Carlos Peucelle",
+    "goals": 113,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Carlos_Peucelle.jpg/320px-Carlos_Peucelle.jpg"
+  },
+  {
+    "name": "Daniel Sabio",
+    "goals": 112,
+    "season": "1932",
+    "imgURL": "https://1.bp.blogspot.com/-FOhTBuVSa-o/XoczMKUvuhI/AAAAAAACbi4/GrQqDeEVoHAv0upiFaO2OodlyU03fJ8yACLcBGAsYHQ/s200/Screenshot_20200401-221720%257E2.png"
+  },
+  {
+    "name": "René Houseman",
+    "goals": 112,
+    "season": "1973",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Houseman_argentina.jpg/320px-Houseman_argentina.jpg"
+  },
+  {
+    "name": "Antonio Sastre",
+    "goals": 112,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Antonio_Sastre_EG.JPG/320px-Antonio_Sastre_EG.JPG"
+  },
+  {
+    "name": "Isidro Lángara",
+    "goals": 110,
+    "season": "1939",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Langara_retrato.jpg/270px-Langara_retrato.jpg"
+  },
+  {
+    "name": "Guillermo Barros Schelotto",
+    "goals": 110,
+    "season": "1991",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Guillermodandounacharla.jpg/300px-Guillermodandounacharla.jpg"
+  },
+  {
+    "name": "Marco Gastón Ruben",
+    "goals": 108,
+    "season": "2004",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Marco_Ruben.jpg/119px-Marco_Ruben.jpg"
+  },
+  {
+    "name": "Andrés Silvera",
+    "goals": 106,
+    "season": "1998",
+    "imgURL": "https://pastadecampeon.com/wp-content/uploads/2019/12/silvera-768x512.jpg"
+  },
+  {
+    "name": "Vicente Zito",
+    "goals": 106,
+    "season": "1931",
+    "imgURL": "https://www.racingclub.com.ar/img/idolos/zito.jpg"
+  },
+  {
+    "name": "Oscar Dertycia",
+    "goals": 105,
+    "season": "1982",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Dertycia_instituto_solofutbol.jpg/320px-Dertycia_instituto_solofutbol.jpg"
+  },
+  {
+    "name": "Antonio Alzamendi",
+    "goals": 105,
+    "season": "1978",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Uruguay_copa_1987.jpg/320px-Uruguay_copa_1987.jpg"
+  },
+  {
+    "name": "Guillermo Trama",
+    "goals": 105,
+    "season": "1971",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e1/G-Trama.png/320px-G-Trama.png"
+  },
+  {
+    "name": "Mariano Pavone",
+    "goals": 104,
+    "season": "2000",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mariano_Pavone_con_Cruz_Azul.jpg/320px-Mariano_Pavone_con_Cruz_Azul.jpg"
+  },
+  {
+    "name": "Pío Corcuera",
+    "goals": 103,
+    "season": "1941",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pio_Corcuera_1943.jpeg/320px-Pio_Corcuera_1943.jpeg"
+  },
+  {
+    "name": "Ermindo Onega",
+    "goals": 103,
+    "season": "1957",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ermindoonega.jpeg/320px-Ermindoonega.jpeg"
+  },
+  {
+    "name": "Néstor Scotta",
+    "goals": 103,
+    "season": "1968",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/f/fa/N%C3%A9stor_Scotta.jpg"
+  },
+  {
+    "name": "Facundo Sava",
+    "goals": 103,
+    "season": "1993",
+    "imgURL": "https://www.infobae.com/new-resizer/l6uZ5eZXbOERMTx7NwbnLSPVT0E=/992x606/filters:format(webp):quality(85)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/TZ6F7W3TGJHLBEZDVQ22U33H3Q"
+  },
+  {
+    "name": "Daniel Montenegro",
+    "goals": 103,
+    "season": "1997",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Daniel_Rolfi_Montenegro.jpg/320px-Daniel_Rolfi_Montenegro.jpg"
+  },
+  {
+    "name": "Juan Andrés Marvezzi",
+    "goals": 102,
+    "season": "1937",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Juan_Marvezy_%28Tigre%29._-_El_Gr%C3%A1fico_1143.jpg/320px-Juan_Marvezy_%28Tigre%29._-_El_Gr%C3%A1fico_1143.jpg"
+  },
+  {
+    "name": "Juan Armando Benavídez",
+    "goals": 102,
+    "season": "1946",
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Juan_Armando_Benav%C3%ADdez_%28San_Lorenzo%29._-_El_Gr%C3%A1fico_1674.jpg/320px-Juan_Armando_Benav%C3%ADdez_%28San_Lorenzo%29._-_El_Gr%C3%A1fico_1674.jpg"
+  },
+  {
+    "name": "Ernesto Grillo",
+    "goals": 102,
+    "season": "1949",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Ernesto_Grillo_Boca_Juniors.jpg/320px-Ernesto_Grillo_Boca_Juniors.jpg"
+  },
+  {
+    "name": "Ángel Laferrara",
+    "goals": 101,
+    "season": "1936",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/88/%C3%81ngel_Laferrara_%28Boca%29._-_El_Gr%C3%A1fico_1175.jpg/320px-%C3%81ngel_Laferrara_%28Boca%29._-_El_Gr%C3%A1fico_1175.jpg"
+  },
+  {
+    "name": "Luis María Rongo",
+    "goals": 101,
+    "season": "1935",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Luismariarongo.jpeg/320px-Luismariarongo.jpeg"
+  },
+  {
+    "name": "Genaro Canteli",
+    "goals": 101,
+    "season": "1932",
+    "imgURL": "http://www.museodesanlorenzo.com.ar/contenido/jugadores/fotos/1930/cantelli.jpg"
+  },
+  {
+    "name": "Aníbal Troncoso",
+    "goals": 101,
+    "season": "1932",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e4/An%C3%ADbal_Troncoso.jpg/210px-An%C3%ADbal_Troncoso.jpg"
+  },
+  {
+    "name": "Roberto Cherro",
+    "goals": 100,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Cherro_1928.jpeg/320px-Cherro_1928.jpeg"
+  },
+  {
+    "name": "Diego García",
+    "goals": 100,
+    "season": "1931",
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Diegogarcia.jpg/250px-Diegogarcia.jpg"
+  }
+]
