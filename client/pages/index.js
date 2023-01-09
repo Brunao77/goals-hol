@@ -65,10 +65,21 @@ export default function Home() {
               src="/boca-juniors.svg"
               width={64}
               height={64}
-              style={{ maxWidth: "100%" }}
               alt="Scorers Boca Juniors"
             />
             <label class="label-btn">Boca Juniors</label>
+          </div>
+          <div
+            onClick={() => handlePlayOption("river_plate")}
+            className={`${playOption === "river_plate" ? "checked" : ""}`}
+          >
+            <Image
+              src="/river-plate.svg"
+              width={64}
+              height={64}
+              alt="Scorers River Plate"
+            />
+            <label class="label-btn">River Plate</label>
           </div>
         </section>
       </main>
