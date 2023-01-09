@@ -50,7 +50,7 @@ export default function Home() {
             className={`${playOption === "argentine_league" ? "checked" : ""}`}
           >
             <Image
-              src="/argentine.svg"
+              src="/argentine-league.svg"
               width="64"
               height="64"
               alt="Scorers Argentine League"
@@ -80,6 +80,20 @@ export default function Home() {
               alt="Scorers River Plate"
             />
             <label class="label-btn">River Plate</label>
+          </div>
+          <div
+            onClick={() => handlePlayOption("argentine_national_team")}
+            className={`${
+              playOption === "argentine_national_team" ? "checked" : ""
+            }`}
+          >
+            <Image
+              src="/argentine.svg"
+              width="64"
+              height="64"
+              alt="Scorers Argentine National Team"
+            />
+            <label class="label-btn">Argentine</label>
           </div>
         </section>
       </main>
