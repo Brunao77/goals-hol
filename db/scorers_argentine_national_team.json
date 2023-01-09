@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Lionel Messi",
+    "season": "2005 - Act",
+    "goals": 98,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/320px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg"
+  },
+  {
+    "name": "Gabriel Batistuta",
+    "season": "1991 - 02",
+    "goals": 54,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/13/Omar_Batistuta_%282%29.jpg/320px-Omar_Batistuta_%282%29.jpg"
+  },
+  {
+    "name": "Sergio Agüero",
+    "season": "2006 - 21.",
+    "goals": 42,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Ag%C3%BCero_in_2018.jpg/225px-Ag%C3%BCero_in_2018.jpg"
+  },
+  {
+    "name": "Hernán Crespo",
+    "season": "1996 - 07.",
+    "goals": 35,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Chelsea_Legends_1_Inter_Forever_4_%2827457022797%29.jpg/280px-Chelsea_Legends_1_Inter_Forever_4_%2827457022797%29.jpg"
+  },
+  {
+    "name": "Diego Maradona",
+    "season": "1977 - 94.",
+    "goals": 34,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/272px-Maradona-Mundial_86_con_la_copa.JPG"
+  },
+  {
+    "name": "Gonzalo Higuaín",
+    "season": "5",
+    "goals": 31,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/7/72/Gonzalo_Higua%C3%ADn_2019.jpg"
+  },
+  {
+    "name": "Ángel Di María",
+    "season": "2008 - Act",
+    "goals": 28,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/NIG-ARG_%285%29.jpg/320px-NIG-ARG_%285%29.jpg"
+  },
+  {
+    "name": "Luis Artime",
+    "season": "1961 - 67",
+    "goals": 24,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/0/02/Luis_Artime.jpg"
+  },
+  {
+    "name": "Leopoldo Luque",
+    "season": "1975 - 81",
+    "goals": 22,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Leopoldo_Luque_1978.jpg/320px-Leopoldo_Luque_1978.jpg"
+  },
+  {
+    "name": "Daniel Passarella",
+    "season": "1976 - 86",
+    "goals": 22,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Passarella_copa_mundo.jpg/300px-Passarella_copa_mundo.jpg"
+  },
+  {
+    "name": "Herminio Masantonio",
+    "season": "1935 - 42",
+    "goals": 21,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/HMasantonio.jpg/320px-HMasantonio.jpg"
+  },
+  {
+    "name": "José Sanfilippo",
+    "season": "1956 - 62",
+    "goals": 21,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Jos%C3%A9_Sanfilippo_1962.jpg/320px-Jos%C3%A9_Sanfilippo_1962.jpg"
+  },
+  {
+    "name": "Lautaro Martínez",
+    "season": "2018 - Act.",
+    "goals": 0,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lautaro_Mart%C3%ADnez_%28cropped%29.jpg/320px-Lautaro_Mart%C3%ADnez_%28cropped%29.jpg"
+  },
+  {
+    "name": "Mario Kempes",
+    "season": "1973 - 82",
+    "goals": 20,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/6/6d/Kempes_Valencia_CF.jpg"
+  },
+  {
+    "name": "René Pontoni",
+    "season": "1942 - 47",
+    "goals": 19,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Ren%C3%A9_Pontoni_Tapa_El_Gr%C3%A1fico_N%C2%B0_1207.jpg/320px-Ren%C3%A9_Pontoni_Tapa_El_Gr%C3%A1fico_N%C2%B0_1207.jpg"
+  },
+  {
+    "name": "Norberto Méndez",
+    "season": "1945 - 56",
+    "goals": 19,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/NorbertoMendez.jpg/320px-NorbertoMendez.jpg"
+  },
+  {
+    "name": "José Manuel Moreno",
+    "season": "1936 - 50",
+    "goals": 19,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Jose_M_Moreno_1941.jpeg/320px-Jose_M_Moreno_1941.jpeg"
+  },
+  {
+    "name": "Domingo Tarasconi",
+    "season": "1922 - 29",
+    "goals": 18,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Domingo_Tarasconi_-_El_Gr%C3%A1fico_337.jpg/200px-Domingo_Tarasconi_-_El_Gr%C3%A1fico_337.jpg"
+  },
+  {
+    "name": "Orestes Corbatta",
+    "season": "1956 - 62",
+    "goals": 18,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Orestes_Omar_Corbatta_%28Racing%29_-_El_Gr%C3%A1fico_1932.jpg/320px-Orestes_Omar_Corbatta_%28Racing%29_-_El_Gr%C3%A1fico_1932.jpg"
+  },
+  {
+    "name": "Ángel Labruna",
+    "season": "1942 - 58",
+    "goals": 17,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Angel_Labruna_1940.jpg/320px-Angel_Labruna_1940.jpg"
+  },
+  {
+    "name": "Miguel Ángel Brindisi",
+    "season": "1969 - 74",
+    "goals": 17,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Miguel_%C3%81ngel_Brindisi_en_1974.jpg/200px-Miguel_%C3%81ngel_Brindisi_en_1974.jpg"
+  },
+  {
+    "name": "Juan Román Riquelme",
+    "season": "1997 - 08",
+    "goals": 17,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Homenaje_a_Riquelme_%28cropped%29.jpg/300px-Homenaje_a_Riquelme_%28cropped%29.jpg"
+  },
+  {
+    "name": "Ariel Ortega",
+    "season": "1993 - 03",
+    "goals": 17,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/0/04/Ariel_Ortega_%28cropped%29.jpg"
+  },
+  {
+    "name": "Claudio Caniggia",
+    "season": "1987 - 02",
+    "goals": 16,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Caniggia_worldcup.jpg/320px-Caniggia_worldcup.jpg"
+  },
+  {
+    "name": "Maximiliano Rodríguez",
+    "season": "2003 - 14",
+    "goals": 16,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Suisse_vs_Argentine_-_Maximiliano_Rodriguez_%28cropped2%29.jpg/200px-Suisse_vs_Argentine_-_Maximiliano_Rodriguez_%28cropped2%29.jpg"
+  },
+  {
+    "name": "Rinaldo Martino",
+    "season": "1942 - 46",
+    "goals": 15,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/9/92/Martino_sanlorenzo1.jpg"
+  },
+  {
+    "name": "Roberto Cherro",
+    "season": "1926 - 37",
+    "goals": 13,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Cherro_1928.jpeg/320px-Cherro_1928.jpeg"
+  },
+  {
+    "name": "René Houseman",
+    "season": "1973 - 79",
+    "goals": 13,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Houseman_argentina.jpg/320px-Houseman_argentina.jpg"
+  },
+  {
+    "name": "Jorge Burruchaga",
+    "season": "1983 - 90",
+    "goals": 13,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Burruchaga_gritando_gol_de_argentina.JPG/250px-Burruchaga_gritando_gol_de_argentina.JPG"
+  },
+  {
+    "name": "Carlos Tévez",
+    "season": "2004 - 15",
+    "goals": 13,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/InddelVal-Boca_%284%29.jpg/272px-InddelVal-Boca_%284%29.jpg"
+  }
+]
