@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Miroslav Klose",
+    "goals": 16,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Miroslav_Klose_2014.jpg/220px-Miroslav_Klose_2014.jpg"
+  },
+  {
+    "name": "Ronaldo",
+    "goals": 15,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ronaldo_Naz%C3%A1rio.jpg/270px-Ronaldo_Naz%C3%A1rio.jpg"
+  },
+  {
+    "name": "Gerd Müller",
+    "goals": 14,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/a/a9/Muller_1974.jpg"
+  },
+  {
+    "name": "Just Fontaine",
+    "goals": 13,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Just_Fontaine_en_1958.jpg/320px-Just_Fontaine_en_1958.jpg"
+  },
+  {
+    "name": "Lionel Messi",
+    "goals": 13,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg/320px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg"
+  },
+  {
+    "name": "Kylian Mbappé",
+    "goals": 12,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/57/2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg/220px-2019-07-17_SG_Dynamo_Dresden_vs._Paris_Saint-Germain_by_Sandro_Halank%E2%80%93129_%28cropped%29.jpg"
+  },
+  {
+    "name": "Pelé",
+    "goals": 12,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pele_by_John_Mathew_Smith.jpg/320px-Pele_by_John_Mathew_Smith.jpg"
+  },
+  {
+    "name": "Sándor Kocsis",
+    "goals": 11,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/S%C3%A1ndor_Kocsis.jpg/250px-S%C3%A1ndor_Kocsis.jpg"
+  },
+  {
+    "name": "Jürgen Klinsmann",
+    "goals": 11,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Trainer_Klinsmann.JPG/320px-Trainer_Klinsmann.JPG"
+  },
+  {
+    "name": "Helmut Rahn",
+    "goals": 10,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Helmut_Rahn.jpg/320px-Helmut_Rahn.jpg"
+  },
+  {
+    "name": "Gary Lineker",
+    "goals": 10,
+    "imgURL": "https://www.elgrafico.com.ar/media/cache/pub_news_details_large/media/i/57/71/57719b7348a91.jpg"
+  },
+  {
+    "name": "Gabriel Batistuta",
+    "goals": 10,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/13/Omar_Batistuta_%282%29.jpg/320px-Omar_Batistuta_%282%29.jpg"
+  },
+  {
+    "name": "Teófilo Cubillas",
+    "goals": 10,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Teofilo_cubillas_panini_card.jpg/320px-Teofilo_cubillas_panini_card.jpg"
+  },
+  {
+    "name": "Thomas Müller",
+    "goals": 10,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/5a/FC_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%28Championsleague_Achtelfinale_Hinspiel_16._Februar_2022%29_33.jpg/225px-FC_Salzburg_gegen_FC_Bayern_M%C3%BCnchen_%28Championsleague_Achtelfinale_Hinspiel_16._Februar_2022%29_33.jpg"
+  },
+  {
+    "name": "Grzegorz Lato",
+    "goals": 10,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Grzegorz_Lato_2011.jpg/320px-Grzegorz_Lato_2011.jpg"
+  },
+  {
+    "name": "Eusébio",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/8/8e/Eusebio_Portugal2.JPG"
+  },
+  {
+    "name": "Christian Vieri",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/16/Christian_Vieri_-_Torino.jpg/270px-Christian_Vieri_-_Torino.jpg"
+  },
+  {
+    "name": "Vavá",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/e/ec/Vav%C3%A1_en_1962.jpg"
+  },
+  {
+    "name": "David Villa",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Spain-Tahiti%2C_Confederations_Cup_2013_%2802%29_%28Villa_crop%29.jpg/320px-Spain-Tahiti%2C_Confederations_Cup_2013_%2802%29_%28Villa_crop%29.jpg"
+  },
+  {
+    "name": "Paolo Rossi",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Paolo_Rossi_Vicenza_%28cropped%29.jpg/320px-Paolo_Rossi_Vicenza_%28cropped%29.jpg"
+  },
+  {
+    "name": "Jairzinho",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Jairzinho_o_Furac%C3%A3o_da_Copa.JPG/320px-Jairzinho_o_Furac%C3%A3o_da_Copa.JPG"
+  },
+  {
+    "name": "Roberto Baggio",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Roberto_Baggio_-_Italia_%2790.jpg/320px-Roberto_Baggio_-_Italia_%2790.jpg"
+  },
+  {
+    "name": "Karl-Heinz Rummenigge",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7e/2015-02-06_Rummenigge_0400.JPG/320px-2015-02-06_Rummenigge_0400.JPG"
+  },
+  {
+    "name": "Uwe Seeler",
+    "goals": 9,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Uwe_Seeler_%28Kiel_56.303%29.jpg/320px-Uwe_Seeler_%28Kiel_56.303%29.jpg"
+  },
+  {
+    "name": "Guillermo Stábile",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Stabile_hurac_1926.jpg/220px-Stabile_hurac_1926.jpg"
+  },
+  {
+    "name": "Leônidas",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/1/17/Le%C3%B4nidas_da_Silva.jpg"
+  },
+  {
+    "name": "Ademir",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Ademir_de_Menezes.jpg/300px-Ademir_de_Menezes.jpg"
+  },
+  {
+    "name": "Óscar Míguez",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Urug1950.jpg/320px-Urug1950.jpg"
+  },
+  {
+    "name": "Harry Kane",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Harry_Kane_in_Russia_2.jpg/320px-Harry_Kane_in_Russia_2.jpg"
+  },
+  {
+    "name": "Neymar",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bra-Cos_%281%29_%28cropped%29.jpg/225px-Bra-Cos_%281%29_%28cropped%29.jpg"
+  },
+  {
+    "name": "Rivaldo",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/8/8e/Rivaldo.jpg"
+  },
+  {
+    "name": "Rudi Völler",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Rudi_V%C3%B6ller_B%C3%BChne_%28cropped%29.jpg/320px-Rudi_V%C3%B6ller_B%C3%BChne_%28cropped%29.jpg"
+  },
+  {
+    "name": "Diego Maradona",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/272px-Maradona-Mundial_86_con_la_copa.JPG"
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "goals": 8,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Cristiano_Ronaldo_WC2022_-_01.jpg/320px-Cristiano_Ronaldo_WC2022_-_01.jpg"
+  },
+  {
+    "name": "Oldřich Nejedlý",
+    "goals": 7,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/5/55/Nejedly.JPG"
+  },
+  {
+    "name": "Lajos Tichy",
+    "goals": 7,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tichy_Lajos_fortepan_101248.jpg/320px-Tichy_Lajos_fortepan_101248.jpg"
+  },
+  {
+    "name": "Careca",
+    "goals": 7,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Antonio_de_Oliveira_Filho_%28Careca%29_01.jpg/255px-Antonio_de_Oliveira_Filho_%28Careca%29_01.jpg"
+  },
+  {
+    "name": "Andrzej Szarmach",
+    "goals": 7,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Szarmach_Andrzej.jpg/320px-Szarmach_Andrzej.jpg"
+  },
+  {
+    "name": "Johnny Rep",
+    "goals": 7,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Johnny_Rep_1978.jpg/320px-Johnny_Rep_1978.jpg"
+  },
+  {
+    "name": "Hans Schaefer",
+    "goals": 7,
+    "imgURL": "//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Gunnar_Gren_1957.jpg/320px-Gunnar_Gren_1957.jpg"
+  },
+  {
+    "name": "Luis Suárez",
+    "goals": 7,
+    "imgURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Luis_Su%C3%A1rez_2018.jpg/225px-Luis_Su%C3%A1rez_2018.jpg"
+  }
+]

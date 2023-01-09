@@ -10,6 +10,8 @@ const URL = {
   river_plate: "http://riverplaydigital.com/maximos-goleadores/",
   argentine_national_team:
     "https://es.wikipedia.org/wiki/Anexo:M%C3%A1ximos_goleadores_de_la_selecci%C3%B3n_de_f%C3%BAtbol_de_Argentina",
+  world_cup:
+    "https://es.wikipedia.org/wiki/Anexo:Goleadores_de_la_Copa_Mundial_de_F%C3%BAtbol",
 };
 
 const scrape = async (url) => {
@@ -195,6 +197,36 @@ const getScorers = async (typeScorers) => {
       });
       break;
     }
+    case "world_cup": {
+      const $rows = $("table tbody").eq(2).children("tr");
+
+      const DATA_SELECTORS = {
+        name: { selector: 0, typeOf: "string" },
+        goals: { selector: 2, typeOf: "number" },
+      };
+
+      const scorersSelectorEntries = Object.entries(DATA_SELECTORS);
+
+      $rows.each((index, el) => {
+        if (index !== 0) {
+          const scorersEntries = scorersSelectorEntries.map(
+            ([key, { selector, typeOf }]) => {
+              const rawValue = $(el).find("td").eq(selector).text();
+              const cleanedValue = rawValue.trim();
+
+              const value =
+                typeOf === "number" ? Number(cleanedValue) : cleanedValue;
+              return [key, value];
+            }
+          );
+
+          const scorersFromEntries = Object.fromEntries(scorersEntries);
+
+          scorers.push(scorersFromEntries);
+        }
+      });
+      break;
+    }
   }
 
   return scorers;
@@ -212,7 +244,7 @@ const getImg = async (name) => {
   return imageURL;
 };
 
-const scorers = await getScorers("argentine_national_team");
+const scorers = await getScorers("world_cup");
 
 const scorersWithImg = await Promise.all(
   scorers.map(async (scorer) => {
@@ -221,6 +253,7 @@ const scorersWithImg = await Promise.all(
   })
 );
 
+// await writeDBFile("scorers_world_cup", scorersWithImg);
 // await writeDBFile("scorers_argentine_national_team", scorersWithImg);
 // await writeDBFile("scorers_river_plate", scorersWithImg);
 // await writeDBFile("scorers", scorersWithImg);
