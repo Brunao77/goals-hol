@@ -4,6 +4,7 @@ import scorers from "../db/scorers.json";
 import scorers_argentine_league from "../db/scorers_argentine_league.json";
 import scorers_boca_juniors from "../db/scorers_boca_juniors.json";
 import scorers_river_plate from "../db/scorers_river_plate.json";
+import scorers_argentine_national_team from "../db/scorers_argentine_national_team.json";
 
 const app = new Hono();
 app.use("*", cors());
@@ -12,7 +13,7 @@ app.get("/", (ctx) => {
   return ctx.json([
     {
       endpoint: "/scorers/all",
-      description: "Return the top historical scorers",
+      description: "Return the historical scorers",
     },
     {
       endpoint: "/scorers/argentine_league",
@@ -26,6 +27,10 @@ app.get("/", (ctx) => {
       endpoint: "/scorers/river_plate",
       description: "Return the historical River Plate scorers",
     },
+    {
+      endpoint: "/scorers/argentine_national_team",
+      description: "Return the historical Argentine National Team scorers",
+    },
   ]);
 });
 
@@ -38,5 +43,9 @@ app.get("/scorers/argentine_league", (ctx) =>
 app.get("/scorers/boca_juniors", (ctx) => ctx.json(scorers_boca_juniors));
 
 app.get("/scorers/river_plate", (ctx) => ctx.json(scorers_river_plate));
+
+app.get("/scorers/argentine_national_team", (ctx) =>
+  ctx.json(scorers_argentine_national_team)
+);
 
 export default app;
