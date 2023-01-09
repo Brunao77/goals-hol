@@ -95,6 +95,18 @@ export default function Home() {
             />
             <label class="label-btn">Argentine</label>
           </div>
+          <div
+            onClick={() => handlePlayOption("world_cup")}
+            className={`${playOption === "world_cup" ? "checked" : ""}`}
+          >
+            <Image
+              src="/world-cup.svg"
+              width="64"
+              height="64"
+              alt="Scorers World Cup"
+            />
+            <label class="label-btn">World Cup</label>
+          </div>
         </section>
       </main>
       <footer className="contact">
