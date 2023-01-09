@@ -63,8 +63,9 @@ export default function Home() {
           >
             <Image
               src="/boca-juniors.svg"
-              width="64"
-              height="64"
+              width={64}
+              height={64}
+              style={{ maxWidth: "100%" }}
               alt="Scorers Boca Juniors"
             />
             <label class="label-btn">Boca Juniors</label>
@@ -129,6 +130,17 @@ export default function Home() {
         }
         h1 {
           color: #fff;
+        }
+        @media (max-width: 650px) {
+          h1 {
+            font-size: 16px;
+          }
+          label {
+            font-size: 11px;
+          }
+          div {
+            width: 100px;
+          }
         }
       `}</style>
     </>

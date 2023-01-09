@@ -66,6 +66,11 @@ export default function Lose() {
           font-size: 60px;
           margin: 0;
         }
+        @media (max-width: 650px) {
+          div {
+            flex-direction: column;
+          }
+        }
       `}</style>
     </>
   );

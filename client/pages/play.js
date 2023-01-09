@@ -99,14 +99,14 @@ export default function Play() {
               <Button
                 onClick={() => handleClick("higher")}
                 width="200px"
-                heigth="60px"
+                heigth="max(7vh,50px)"
               >
                 Higher
               </Button>
               <Button
                 onClick={() => handleClick("lower")}
                 width="200px"
-                heigth="60px"
+                heigth="max(7vh,50px)"
               >
                 Lower
               </Button>
@@ -121,7 +121,6 @@ export default function Play() {
       </main>
       <style jsx>{`
         main {
-          padding: 0;
           width: 100%;
           height: 100vh;
           display: flex;
@@ -232,6 +231,24 @@ export default function Play() {
         .goals {
           font-size: 60px;
           color: #fff989;
+        }
+        @media (max-width: 650px) {
+          main {
+            display: flex;
+            flex-direction: column;
+          }
+          span {
+            font-size: 11px;
+          }
+          section {
+            gap: 5px;
+          }
+          h1 {
+            font-size: 25px;
+          }
+          .goals {
+            font-size: 50px;
+          }
         }
       `}</style>
     </>
