@@ -7,6 +7,7 @@ const URL = {
     "https://es.wikipedia.org/wiki/Anexo:M%C3%A1ximos_goleadores_de_la_Primera_Divisi%C3%B3n_de_Argentina",
   boca_juniors:
     "https://es.wikipedia.org/wiki/Anexo:M%C3%A1ximos_goleadores_del_Club_Atl%C3%A9tico_Boca_Juniors#:~:text=Los%20mayores%20goleadores%20del%20club,Sebasti%C3%A1n%20Villa%20con%2028%20tantos.",
+  river_plate: "http://riverplaydigital.com/maximos-goleadores/",
 };
 
 const scrape = async (url) => {
@@ -16,7 +17,7 @@ const scrape = async (url) => {
 };
 
 const getScorers = async (typeScorers) => {
-  const $ = await scrape(URL.typeScorers);
+  const $ = await scrape(URL[typeScorers]);
   const scorers = [];
 
   switch (typeScorers) {
@@ -28,8 +29,6 @@ const getScorers = async (typeScorers) => {
         season: { selector: 2, typeOf: "string" },
         goals: { selector: 3, typeOf: "number" },
       };
-
-      const scorers = [];
 
       const scorersSelectorEntries = Object.entries(DATA_SELECTORS);
 
@@ -61,8 +60,6 @@ const getScorers = async (typeScorers) => {
         goals: { selector: 2, typeOf: "number" },
         season: { selector: 5, typeOf: "string" },
       };
-
-      const scorers = [];
 
       const scorersSelectorEntries = Object.entries(DATA_SELECTORS);
 
@@ -127,6 +124,36 @@ const getScorers = async (typeScorers) => {
       });
       break;
     }
+    case "river_plate": {
+      const $rows = $("table tbody tr");
+
+      const DATA_SELECTORS = {
+        name: { selector: 0, typeOf: "string" },
+        goals: { selector: 1, typeOf: "number" },
+      };
+
+      const scorersSelectorEntries = Object.entries(DATA_SELECTORS);
+
+      $rows.each((index, el) => {
+        if (index !== 0) {
+          const scorersEntries = scorersSelectorEntries.map(
+            ([key, { selector, typeOf }]) => {
+              const rawValue = $(el).find("td strong").eq(selector).text();
+              const cleanedValue = rawValue.trim();
+
+              const value =
+                typeOf === "number" ? Number(cleanedValue) : cleanedValue;
+              return [key, value];
+            }
+          );
+
+          const scorersFromEntries = Object.fromEntries(scorersEntries);
+
+          scorers.push(scorersFromEntries);
+        }
+      });
+      break;
+    }
   }
 
   return scorers;
@@ -144,7 +171,8 @@ const getImg = async (name) => {
   return imageURL;
 };
 
-const scorers = await getScorers();
+const scorers = await getScorers("river_plate");
+console.log(scorers);
 
 const scorersWithImg = await Promise.all(
   scorers.map(async (scorer) => {
@@ -153,6 +181,7 @@ const scorersWithImg = await Promise.all(
   })
 );
 
+// await writeDBFile("scorers_river_plate", scorersWithImg);
 // await writeDBFile("scorers", scorersWithImg);
 // await writeDBFile("scorers_boca_juniors", scorersWithImg);
 // await writeDBFile("scorers_argentine_league", scorersWithImg);
